@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E28B0FDB1B48272A009F6C4F /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28B0FDA1B48272A009F6C4F /* String+Extensions.swift */; };
+		E2EC65C51B442D9C0057864D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EC65C41B442D9C0057864D /* AppDelegate.swift */; };
+		E2EC65C71B442D9C0057864D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EC65C61B442D9C0057864D /* GameScene.swift */; };
+		E2EC65C91B442D9C0057864D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E2EC65C81B442D9C0057864D /* GameScene.sks */; };
+		E2EC65CB1B442D9C0057864D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2EC65CA1B442D9C0057864D /* Images.xcassets */; };
+		E2EC65CE1B442D9C0057864D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2EC65CC1B442D9C0057864D /* MainMenu.xib */; };
+		E2EC65DA1B442D9D0057864D /* LionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EC65D91B442D9D0057864D /* LionTests.swift */; };
+		E2EC65E51B4433ED0057864D /* SKTEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EC65E31B4433ED0057864D /* SKTEffects.swift */; };
+		E2EC65E61B4433ED0057864D /* SKTTimingFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EC65E41B4433ED0057864D /* SKTTimingFunctions.swift */; };
+		E2EC65E81B4434010057864D /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EC65E71B4434010057864D /* CGPoint+Extensions.swift */; };
+		E2EC65EA1B44341C0057864D /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EC65E91B44341C0057864D /* CGFloat+Extensions.swift */; };
+		E2EC65EE1B443CB50057864D /* LionWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EC65ED1B443CB50057864D /* LionWindow.swift */; };
+		E2FE21571B48FF410089D1AF /* OtherGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FE21561B48FF410089D1AF /* OtherGameScene.swift */; };
+		E2FE21591B4902040089D1AF /* VillageLabelNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FE21581B4902040089D1AF /* VillageLabelNode.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2EC65D41B442D9D0057864D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2EC65B71B442D9C0057864D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2EC65BE1B442D9C0057864D;
+			remoteInfo = Lion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E28B0FDA1B48272A009F6C4F /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		E2EC65BF1B442D9C0057864D /* Lion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2EC65C31B442D9C0057864D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2EC65C41B442D9C0057864D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E2EC65C61B442D9C0057864D /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		E2EC65C81B442D9C0057864D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		E2EC65CA1B442D9C0057864D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E2EC65CD1B442D9C0057864D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E2EC65D31B442D9D0057864D /* LionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2EC65D81B442D9D0057864D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2EC65D91B442D9D0057864D /* LionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LionTests.swift; sourceTree = "<group>"; };
+		E2EC65E31B4433ED0057864D /* SKTEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTEffects.swift; sourceTree = "<group>"; };
+		E2EC65E41B4433ED0057864D /* SKTTimingFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTTimingFunctions.swift; sourceTree = "<group>"; };
+		E2EC65E71B4434010057864D /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
+		E2EC65E91B44341C0057864D /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extensions.swift"; sourceTree = "<group>"; };
+		E2EC65ED1B443CB50057864D /* LionWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LionWindow.swift; sourceTree = "<group>"; };
+		E2FE21561B48FF410089D1AF /* OtherGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherGameScene.swift; sourceTree = "<group>"; };
+		E2FE21581B4902040089D1AF /* VillageLabelNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VillageLabelNode.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2EC65BC1B442D9C0057864D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2EC65D01B442D9D0057864D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2EC65B61B442D9C0057864D = {
+			isa = PBXGroup;
+			children = (
+				E2EC65C11B442D9C0057864D /* Lion */,
+				E2EC65D61B442D9D0057864D /* LionTests */,
+				E2EC65C01B442D9C0057864D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2EC65C01B442D9C0057864D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2EC65BF1B442D9C0057864D /* Lion.app */,
+				E2EC65D31B442D9D0057864D /* LionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2EC65C11B442D9C0057864D /* Lion */ = {
+			isa = PBXGroup;
+			children = (
+				E2EC65C41B442D9C0057864D /* AppDelegate.swift */,
+				E2EC65C61B442D9C0057864D /* GameScene.swift */,
+				E2FE21561B48FF410089D1AF /* OtherGameScene.swift */,
+				E2FE21581B4902040089D1AF /* VillageLabelNode.swift */,
+				E2EC65C81B442D9C0057864D /* GameScene.sks */,
+				E2EC65ED1B443CB50057864D /* LionWindow.swift */,
+				E2EC65E91B44341C0057864D /* CGFloat+Extensions.swift */,
+				E28B0FDA1B48272A009F6C4F /* String+Extensions.swift */,
+				E2EC65E71B4434010057864D /* CGPoint+Extensions.swift */,
+				E2EC65E31B4433ED0057864D /* SKTEffects.swift */,
+				E2EC65E41B4433ED0057864D /* SKTTimingFunctions.swift */,
+				E2EC65CA1B442D9C0057864D /* Images.xcassets */,
+				E2EC65CC1B442D9C0057864D /* MainMenu.xib */,
+				E2EC65C21B442D9C0057864D /* Supporting Files */,
+			);
+			path = Lion;
+			sourceTree = "<group>";
+		};
+		E2EC65C21B442D9C0057864D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2EC65C31B442D9C0057864D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E2EC65D61B442D9D0057864D /* LionTests */ = {
+			isa = PBXGroup;
+			children = (
+				E2EC65D91B442D9D0057864D /* LionTests.swift */,
+				E2EC65D71B442D9D0057864D /* Supporting Files */,
+			);
+			path = LionTests;
+			sourceTree = "<group>";
+		};
+		E2EC65D71B442D9D0057864D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2EC65D81B442D9D0057864D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2EC65BE1B442D9C0057864D /* Lion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2EC65DD1B442D9D0057864D /* Build configuration list for PBXNativeTarget "Lion" */;
+			buildPhases = (
+				E2EC65BB1B442D9C0057864D /* Sources */,
+				E2EC65BC1B442D9C0057864D /* Frameworks */,
+				E2EC65BD1B442D9C0057864D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lion;
+			productName = Lion;
+			productReference = E2EC65BF1B442D9C0057864D /* Lion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2EC65D21B442D9D0057864D /* LionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2EC65E01B442D9D0057864D /* Build configuration list for PBXNativeTarget "LionTests" */;
+			buildPhases = (
+				E2EC65CF1B442D9D0057864D /* Sources */,
+				E2EC65D01B442D9D0057864D /* Frameworks */,
+				E2EC65D11B442D9D0057864D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2EC65D51B442D9D0057864D /* PBXTargetDependency */,
+			);
+			name = LionTests;
+			productName = LionTests;
+			productReference = E2EC65D31B442D9D0057864D /* LionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2EC65B71B442D9C0057864D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Thomas Brichart";
+				TargetAttributes = {
+					E2EC65BE1B442D9C0057864D = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					E2EC65D21B442D9D0057864D = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = E2EC65BE1B442D9C0057864D;
+					};
+				};
+			};
+			buildConfigurationList = E2EC65BA1B442D9C0057864D /* Build configuration list for PBXProject "Lion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2EC65B61B442D9C0057864D;
+			productRefGroup = E2EC65C01B442D9C0057864D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2EC65BE1B442D9C0057864D /* Lion */,
+				E2EC65D21B442D9D0057864D /* LionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2EC65BD1B442D9C0057864D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2EC65C91B442D9C0057864D /* GameScene.sks in Resources */,
+				E2EC65CB1B442D9C0057864D /* Images.xcassets in Resources */,
+				E2EC65CE1B442D9C0057864D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2EC65D11B442D9D0057864D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2EC65BB1B442D9C0057864D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2EC65C71B442D9C0057864D /* GameScene.swift in Sources */,
+				E2FE21571B48FF410089D1AF /* OtherGameScene.swift in Sources */,
+				E2EC65E81B4434010057864D /* CGPoint+Extensions.swift in Sources */,
+				E2FE21591B4902040089D1AF /* VillageLabelNode.swift in Sources */,
+				E2EC65E51B4433ED0057864D /* SKTEffects.swift in Sources */,
+				E2EC65E61B4433ED0057864D /* SKTTimingFunctions.swift in Sources */,
+				E28B0FDB1B48272A009F6C4F /* String+Extensions.swift in Sources */,
+				E2EC65EA1B44341C0057864D /* CGFloat+Extensions.swift in Sources */,
+				E2EC65EE1B443CB50057864D /* LionWindow.swift in Sources */,
+				E2EC65C51B442D9C0057864D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2EC65CF1B442D9D0057864D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2EC65DA1B442D9D0057864D /* LionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2EC65D51B442D9D0057864D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2EC65BE1B442D9C0057864D /* Lion */;
+			targetProxy = E2EC65D41B442D9D0057864D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E2EC65CC1B442D9C0057864D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2EC65CD1B442D9C0057864D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2EC65DB1B442D9D0057864D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E2EC65DC1B442D9D0057864D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E2EC65DE1B442D9D0057864D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Lion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E2EC65DF1B442D9D0057864D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Lion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E2EC65E11B442D9D0057864D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lion.app/Contents/MacOS/Lion";
+			};
+			name = Debug;
+		};
+		E2EC65E21B442D9D0057864D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lion.app/Contents/MacOS/Lion";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2EC65BA1B442D9C0057864D /* Build configuration list for PBXProject "Lion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2EC65DB1B442D9D0057864D /* Debug */,
+				E2EC65DC1B442D9D0057864D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2EC65DD1B442D9D0057864D /* Build configuration list for PBXNativeTarget "Lion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2EC65DE1B442D9D0057864D /* Debug */,
+				E2EC65DF1B442D9D0057864D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2EC65E01B442D9D0057864D /* Build configuration list for PBXNativeTarget "LionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2EC65E11B442D9D0057864D /* Debug */,
+				E2EC65E21B442D9D0057864D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2EC65B71B442D9C0057864D /* Project object */;
+}
